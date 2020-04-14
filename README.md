@@ -1,6 +1,6 @@
 # IS542, Spring 2020
 
-This is a hastily assembled group of notebooks for IS542 at the iSchool, UIUC.  Please excuse our dust.
+This is a hastily assembled group of course materials for IS542 at the iSchool, UIUC.  Please excuse our dust.
 
 If you see any bugs or errors please issue a PR -- always looking to make things better!
 
@@ -30,9 +30,16 @@ Example [syllabus here](IS542AO_syllabus.pdf).
 
 | Week Link  | Topic |
 |---|---|
-| [Week 01](week01) | Course Intro & Motivation |
-| [Week 02](week02) | Introduction to Numerical Data |
-
+| [Week 01](week01) | Course Intro & Motivation, Intro to R |
+| [Week 02](week02) | Intro to Numerical Data, Intro to R |
+| [Week 03](week03) | Intro to Categorical Data, Intro to Probability Theory |
+| [Week 04](week04) | Random Variables, Continous Probability Distributions |
+| [Week 05](week05) | The Normal Distribution |
+| [Week 06](week06) | The Normal & Binomial Distributions |
+| [Week 07](week07) | Foundations for Inference |
+| [Week 08](week08) | Hypothesis testing: Normal, T-distribution, and single proportions |
+| Week 09 | Break |
+| [Week 10](week10) | Hypothesis testing: Differences of 2 means/proportions, paired data; ANOVA and $\chi^2$ models |
 
 
 ## Reading
