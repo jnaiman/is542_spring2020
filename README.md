@@ -39,7 +39,8 @@ Example [syllabus here](IS542AO_syllabus.pdf).
 | [Week 07](week07) | Foundations for Inference |
 | [Week 08](week08) | Hypothesis testing: Normal, T-distribution, and single proportions |
 | Week 09 | Break |
-| [Week 10](week10) | Hypothesis testing: Differences of 2 means/proportions, paired data; ANOVA and $\chi^2$ models |
+| [Week 10](week10) | Hypothesis testing: Differences of 2 means/proportions, paired data; ANOVA and <img src="https://render.githubusercontent.com/render/math?math=\chi^2">
+ models |
 
 
 ## Reading
