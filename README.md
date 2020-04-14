@@ -10,14 +10,14 @@ As of writing, this github repo is very much under development **and** this cour
 
  * Weeks 1-12 have been taught and code/lecture slides updated
  * NO weeks have notebook files yet, only .R files
- * NO weeks have had an "online cleaning" which includes the addition of a "info" doc for the week with links and how-tos
+ * NO weeks have had an "online cleaning" which includes the addition of a "README" doc for the week with links and how-tos
 
 ## How to use this repo
 
 Each week consists of lecture slides and prep-notebooks in the programming language R along with suggested resources, homeworks and readings.  The readings consist of what was "required" for the course as well as optional extra readings so feel free to take/leave what you'd like.
 
 Below is the outline of the course, with links to the individual folders for each week.  Each folder contains (IN PROGRESS):
- 1. an "info_for_this_week.md" file which lists the suggested readings and homeworks, datasets and any extra resources for the week
+ 1. an "README.md" file which lists the suggested readings and homeworks, datasets and any extra resources for the week
  1. The lecture slides (as a pdf)
  1. Prep coding notebooks used for the "live coding" portions of class which generally happened after the lecture portion (.ipynb files)
  1. Any datasets used in the coding portion
