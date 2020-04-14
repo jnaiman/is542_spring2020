@@ -30,7 +30,10 @@ Example [syllabus here](IS542AO_syllabus.pdf).
 
 | Week Link  | Topic |
 |---|---|
-| Stuff 1 | Stuff 2 |
+| [Week 01](week01) | Course Intro & Motivation |
+| [Week 02](week02) | Introduction to Numerical Data |
+
+
 
 ## Reading
 
