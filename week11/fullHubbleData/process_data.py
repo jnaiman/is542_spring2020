@@ -1,0 +1,11 @@
+# this processes the data into a familiar format
+
+import numpy as np
+
+data = np.loadtxt('/Users/jillnaiman1/Dropbox/stats_spring_2019/lectures/week10/fullHubbleData/sn_data.txt')
+
+
+# data is redshift, distance, derror
+data[:,0] *= 299792.0 # km/s
+
+np.savetxt('/Users/jillnaiman1/Dropbox/stats_spring_2019/lectures/week10/fullHubbleData/sn_data_out.txt',data, delimiter=',')

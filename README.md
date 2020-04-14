@@ -4,14 +4,25 @@ This is a hastily assembled group of notebooks for IS542 at the iSchool, UIUC.  
 
 If you see any bugs or errors please issue a PR -- always looking to make things better!
 
+## Development Notes
+
+As of writing, this github repo is very much under development **and** this course is still being taught so things in the last few weeks are moving around.  Check here for updates on the state of lectures.
+
+ * Weeks 1-12 have been taught and code/lecture slides updated
+ * NO weeks have notebook files yet, only .R files
+ * NO weeks have had an "online cleaning" which includes the addition of a "info" doc for the week with links and how-tos
+
 ## How to use this repo
 
 Each week consists of lecture slides and prep-notebooks in the programming language R along with suggested resources, homeworks and readings.  The readings consist of what was "required" for the course as well as optional extra readings so feel free to take/leave what you'd like.
 
-Below is the outline of the course, with links to the individual folders for each week.  Each folder contains:
- 1. an "info_for_this_week.md" file which lists the suggested readings and homeworks, and any extra resources for the week
+Below is the outline of the course, with links to the individual folders for each week.  Each folder contains (IN PROGRESS):
+ 1. an "info_for_this_week.md" file which lists the suggested readings and homeworks, datasets and any extra resources for the week
  1. The lecture slides (as a pdf)
- 1. Prep coding notebooks used for the "live coding" portions of class which generally happened after the lecture portion.
+ 1. Prep coding notebooks used for the "live coding" portions of class which generally happened after the lecture portion (.ipynb files)
+ 1. Any datasets used in the coding portion
+ 
+**NOTE:** As this format of this course is currently being updated, some of the notebooks have not been converted and instead .R files are included instead.
 
 ## Course Outline
 
