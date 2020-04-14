@@ -11,6 +11,6 @@ The linked csv file is just for students who do not have the dataset in hand for
 
 To preserve the natural flow of the narrative, figures (e.g., screen shots, code snippets, etc) and tables should be embedded into your PDF document near the first mention.
 
-**What is a narrative?**  See the example posted in todays class lecture.
+**What is a narrative?**  See the [example posted](narrative.md) in todays class lecture.
 
 **Note:** Please include what did & didn't work in your narrative PDF.  For example, if you can't get a bit of code to work let us know what you tried so we can see your work!
