@@ -8,12 +8,22 @@ If you see any bugs or errors please issue a PR -- always looking to make things
 
 Each week consists of lecture slides and prep-notebooks in the programming language R along with suggested resources, homeworks and readings.  The readings consist of what was "required" for the course as well as optional extra readings so feel free to take/leave what you'd like.
 
+Below is the outline of the course, with links to the individual folders for each week.  Each folder contains:
+ 1. an "info_for_this_week.md" file which lists the suggested readings and homeworks, and any extra resources for the week
+ 1. The lecture slides (as a pdf)
+ 1. Prep coding notebooks used for the "live coding" portions of class which generally happened after the lecture portion.
+
+## Course Outline
+
+ * syllabus
+ * table of weeks
+
 ## Reading
 
 This course is based off of the following textbooks:
 
  1. Required
-   * OpenIntro Statistics, **3rd Edition** which can be found on [amazon](https://www.amazon.com/OpenIntro-Statistics-CreateSpace-David-Diez/dp/1943450048/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=GM58G07HV34YWYGD0JRP) or in [pdf form](http://www.tf.uns.ac.rs/~omorr/radovan_omorjan_003_prII/r-examples/os3.pdf).  **NOTE: we will likely move to the 4th Edition next semester.**
+   * OpenIntro Statistics, **3rd Edition** which can be found on [amazon](https://www.amazon.com/OpenIntro-Statistics-CreateSpace-David-Diez/dp/1943450048/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=GM58G07HV34YWYGD0JRP) or in [free pdf form](http://www.tf.uns.ac.rs/~omorr/radovan_omorjan_003_prII/r-examples/os3.pdf).  **NOTE: we will likely move to the 4th Edition next semester.**
    * An Introduction to R, available as a [pdf](https://cran.r-project.org/doc/manuals/R-intro.pdf).
    * An Introduction to Statistical Learning, click on the `Download the PDF` link [here](http://faculty.marshall.usc.edu/gareth-james/ISL/).
  1. Optional
@@ -22,3 +32,10 @@ This course is based off of the following textbooks:
 
 
 ## Installation of R, RStudio and Jupyter notebooks
+
+ 1. Download R from the [R-project webpage](https://www.r-project.org/)
+ 1. Courses were taught using RStudio which you can [download right here](https://rstudio.com/)
+ 
+ To run the Jupyter notebooks with R locally, install [Anaconda](https://www.anaconda.com/distribution/) and then please follow the [instructions for installing R using the Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/).
+ 
+ **NOTE:** There are pay-versions of this software but we assume you are using the free versions.
