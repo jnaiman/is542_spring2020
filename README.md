@@ -19,7 +19,7 @@ Each week consists of lecture slides and prep-notebooks in the programming langu
 Below is the outline of the course, with links to the individual folders for each week.  Each folder contains (IN PROGRESS):
  1. an "README.md" file which lists the suggested readings and homeworks, datasets and any extra resources for the week
  1. The lecture slides (as a pdf)
- 1. Prep coding notebooks used for the "live coding" portions of class which generally happened after the lecture portion (.ipynb files)
+ 1. Prep coding notebooks used for the "live coding" portions of class which generally happened after the lecture portion (.ipynb files) **BUT** sometimes we swtich between the lecture slides & R.  This will be denoted in the slides as well as R.
  1. Any datasets used in the coding portion
  
 **NOTE:** As this format of this course is currently being updated, some of the notebooks have not been converted and instead .R files are included instead.
