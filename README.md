@@ -15,7 +15,8 @@ Below is the outline of the course, with links to the individual folders for eac
 
 ## Course Outline
 
- * syllabus
+Example [syllabus here](IS542AO_syllabus.pdf).
+
  * table of weeks
 
 ## Reading
