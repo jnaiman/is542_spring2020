@@ -1,4 +1,4 @@
-# IS542, Spring 2020
+# IS542, Spring 2020, Online
 
 This is a hastily assembled group of course materials for IS542 at the iSchool, UIUC.  Please excuse our dust.
 
@@ -75,5 +75,14 @@ This course is based off of the following textbooks:
 
  * Add in photos of RStudio & label panels
  * Link to Data ag install list?
+ * Add in pedagogy links and general references
+ * Add in "working on" as far as online teaching strategies -- what is currently working and is not
+ 
+**Weeks**
  * Week 02
     * A-void notebook
+
+
+### Disclaimer
+
+My background is in astrophysics (hydro simulations) so there will be an abundance of astronomy examples and space jokes.  You have been warned.
