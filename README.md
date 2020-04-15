@@ -70,3 +70,8 @@ This course is based off of the following textbooks:
  To run the Jupyter notebooks with R locally, install [Anaconda](https://www.anaconda.com/distribution/) and then please follow the [instructions for installing R using the Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/).
  
  **NOTE:** There are pay-versions of this software but we assume you are using the free versions.
+
+## TODO
+
+ * Add in photos of RStudio & label panels
+ * Link to Data ag install list?
