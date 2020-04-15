@@ -18,7 +18,11 @@ This week we finish talking about summary statistics for numerical data (mean, s
 	
 ## Reading
 
-This week will be an introduction to the course topics & the R programming language.  If we have time we'll start discussing topics from OIS 1.2, 1.3 & 1.6.
+This weeks topics cover remaining parts of OIS 1.2, 1.3, 1.6; OIS 1.5 & 1.7.
+
+Note: we won't cover 1.8 yet, but will later in the class so feel free to read it over now.
+
+We will also cover ITR 1, 2, 5, 6, 7, 12 (ITR can be skimmed or read in depth depending on comfort level with coding)
 
 ## [Homework](homework.md)
 
