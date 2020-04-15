@@ -5,9 +5,10 @@ This week we finish talking about summary statistics for numerical data (mean, s
 ## Class outline
 
  1. [Lecture](lecture2_s2020_touse.pdf)
- 1. [Notebook: Analyzing Class Data](prep_notebook_classData_week02_part1.ipynb)
+ 1. [Notebook #1: Analyzing Class Data](prep_notebook_classData_week02_part1.ipynb)
     * Data:  formatted\_class\_answers.csv([view](formatted_class_answers.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week02/formatted_class_answers.csv))
-	* See [as an Rscript](Rscripts/prep_class_notes_week01.R)
+	* See [as an Rscript](Rscripts/prep_class_notes_classData_week02_part1.R)
+ 1. [Notebook #2: Analysis of the Fish Dataset](prep_notebook_fishdata_week02_part2.ipynb)
 	
 ## Reading
 
