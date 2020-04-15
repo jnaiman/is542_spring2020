@@ -77,6 +77,7 @@ This course is based off of the following textbooks:
  * Link to Data ag install list?
  * Add in pedagogy links and general references
  * Add in "working on" as far as online teaching strategies -- what is currently working and is not
+ * add in course pre-reqs
  
 **Weeks**
  * Week 02
