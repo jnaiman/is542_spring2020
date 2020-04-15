@@ -75,3 +75,5 @@ This course is based off of the following textbooks:
 
  * Add in photos of RStudio & label panels
  * Link to Data ag install list?
+ * Week 02
+    * A-void notebook
