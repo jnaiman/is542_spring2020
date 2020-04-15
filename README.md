@@ -1,4 +1,4 @@
-# IS542, Spring 2020, Online
+# IS542, Spring 2020 (taught online, synchronously)
 
 This is a hastily assembled group of course materials for IS542 at the iSchool, UIUC.  Please excuse our dust.
 
