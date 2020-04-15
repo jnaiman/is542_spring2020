@@ -6,12 +6,8 @@ This week we finish talking about summary statistics for numerical data (mean, s
 
  1. [Lecture](lecture2_s2020_touse.pdf)
  1. [Notebook: Analyzing Class Data](prep_notebook_classData_week02_part1.ipynb)
-    * Data:  l1\_trialData.csv([view](l1_trialData.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week01/l1_trialData.csv))
+    * Data:  formatted\_class\_answers.csv([view](formatted_class_answers.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week02/formatted_class_answers.csv))
 	* See [as an Rscript](Rscripts/prep_class_notes_week01.R)
-<<<<<<< HEAD
- 1. notebook2
-=======
->>>>>>> b19e54cf2cba525835019e1ceb0714e1fcde8361
 	
 ## Reading
 
