@@ -1,6 +1,6 @@
 # Week 03: Intro to Categorical Data, Table Proportions, and Probability Theory
 
-This week we'll cover categorical data and start talking about probability theory (frequentist).
+This week we'll finish covering categorical data, work on some table proportion problems, and start talking about probability theory (frequentist).
 
 ## Class outline
 
