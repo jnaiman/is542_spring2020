@@ -32,7 +32,7 @@ Example [syllabus here](IS542AO_syllabus.pdf).
 |---|---|
 | [Week 01](week01) | Course Intro & Motivation, Intro to R |
 | [Week 02](week02) | Intro to Numerical Data, Intro to R |
-| [Week 03](week03) | Intro to Categorical Data, Intro to Probability Theory |
+| [Week 03](week03) | Intro to Categorical Data, Table Proportions, and Probability Theory |
 | [Week 04](week04) | Random Variables, Continous Probability Distributions |
 | [Week 05](week05) | The Normal Distribution |
 | [Week 06](week06) | The Normal & Binomial Distributions |
