@@ -78,10 +78,13 @@ This course is based off of the following textbooks:
  * Add in pedagogy links and general references
  * Add in "working on" as far as online teaching strategies -- what is currently working and is not
  * add in course pre-reqs
+ * add in slides with lecture notes
  
 **Weeks**
  * Week 02
     * A-void notebook
+ * Week 03
+    * Add in extra GLM stuff, corrplot, links to datacamp
 	
 **Stretch Goals**
  * include bayesian stuffs as a bonus class
