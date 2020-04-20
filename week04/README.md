@@ -1,6 +1,6 @@
 # Week 04: Random Variables, Continous Probability Distributions
 
-This week we'll finish covering categorical data, work on some table proportion problems, and start talking about probability theory (frequentist).
+This week we'll finish covering probability theory (frequentist) and start talking about the normal distribution.
 
 ## Class outline
  
@@ -21,7 +21,7 @@ This week we'll finish covering categorical data, work on some table proportion 
 
 ## Reading
 
-OIS 2.4, 2.5 (3.1, 3.2 - time permitting)
+OIS 2.4, 2.5
 
 ## [Homework](homework.md)
 
