@@ -7,6 +7,7 @@ This week we'll finish covering categorical data, work on some table proportion 
  1. Probability Intro/Review with the [Beat the Odds Game](http://d3tt741pwxqwm0.cloudfront.net/WGBH/mgbh/mgbh_int_beatodds/index.html) (students play in groups).
  1. [Lecture](lecture4_f2019_toupload_part1_uptoRandomVars.pdf)
  1. [Notebook](prep_notebook_normalDistribution.ipynb)
+    * Uses [this plot_polygons.R Rscript](plot_polygons.R)
 	* See [as an Rscript](Rscripts/prepNotes_part2_beginningNormalDistribution.R)
  
 ## Extra resources
