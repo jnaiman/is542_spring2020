@@ -9,8 +9,8 @@ This week we'll focus more on the Binomial Distribution and relate it to the Nor
 	* See [as an Rscript](Rscripts/prep_part1_moreNormalProblems_week06.R)
  1. [Notebook #2: Intro to the Binomial Distribution](prep_part2_introToBinomialDist.ipynb)
 	* See [as an Rscript](Rscripts/prep_part2_introToBinomialDist_week06.R)
- 1. [Notebook #3: Z-scores from percentiles](prep_notes_part3_week05_s2020_zscoresFromPercentiles.ipynb)
-	* See [as an Rscript](Rscripts/prep_notes_part3_week05_s2020_zscoresFromPercentiles.R)
+ 1. [Notebook #3: Geometric Distribution](prep_part3_geometricDistribution.ipynb)
+	* See [as an Rscript](Rscripts/prep_part3_geometricDistribution_week06.R)
  1. [Notebook #4: Is it normal?](prep_notes_part4_week05_s2020_isItNormal.ipynb)
 	* See [as an Rscript](Rscripts/prep_notes_part4_week05_s2020_isItNormal.R)
 
