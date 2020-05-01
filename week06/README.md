@@ -11,10 +11,10 @@ This week we'll focus more on the Binomial Distribution and relate it to the Nor
 	* See [as an Rscript](Rscripts/prep_part2_introToBinomialDist_week06.R)
  1. [Notebook #3: Geometric Distribution](prep_part3_geometricDistribution.ipynb)
 	* See [as an Rscript](Rscripts/prep_part3_geometricDistribution_week06.R)
- 1. [Notebook #4: Is it normal?](prep_notes_part4_week05_s2020_isItNormal.ipynb)
-	* See [as an Rscript](Rscripts/prep_notes_part4_week05_s2020_isItNormal.R)
+ 1. [Notebook #4: More on the Binomial Distribution](prep_part4_binomialDistributionCalculations.ipynb)
+	* See [as an Rscript](Rscripts/prep_part4_binomialDistributionCalcs_week06.R)
 
-**NOTE:** all notebooks make use of [the_polygons.R Rscript from last week](../week04/plot_polygons.R)
+**NOTE:** notebooks make use of [the_polygons.R Rscript from last week](../week04/plot_polygons.R)
 
 
 ## Reading
