@@ -13,6 +13,8 @@ This week we introduce confidence intervals, hypothesis testing, setting the hyp
     * Data:  ozone2.csv([view](ozone2.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week07/ozone2.csv)) (Ozone data from MIS)
 	* See [as an Rscript](Rscripts/prep_part2_confidenceIntervals.R)
 	
+**NOTE:** notebooks make use of [the_polygons.R Rscript from a few weeks ago](../week04/plot_polygons.R)
+	
 ## Reading
 
 OIS 4.1-4.2, Beginning of 4.3, Brief mention of 4.4

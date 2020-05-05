@@ -19,6 +19,8 @@ sample_mean = 5.0
 sample_SD = 2.0
 nsample = 200 # number of samples
 
+WHERE IS SE??
+
 # First, let's plot the distribution of our theoretical sample means:
 x = seq(sample_mean-3*SE, sample_mean+3*SE, length=200)
 y = dnorm(x, mean=sample_mean, sd=SE)
