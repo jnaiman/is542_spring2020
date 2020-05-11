@@ -1,4 +1,4 @@
-# Week 10: Hypothesis testing: Differences of 2 means/proportions, paired data; ANOVA and <img src="https://render.githubusercontent.com/render/math?math=\chi^2"> models
+# Week 10: Hypothesis testing: Differences of 2 means/proportions, paired data; ANOVA and <img src="https://render.githubusercontent.com/render/math?math=\chi^2" width='50px'> models
 
 This week we continue with hypothesis for differences between two means and proportions and paired data.  We'll also cover hypothesis testing using ANOVA and <img src="https://render.githubusercontent.com/render/math?math=\chi^2"> models.
 
