@@ -130,6 +130,7 @@ print(pvalue)
 # Let's look at voting data from the 2000 presidential election.
 
 # just run this once
+#install.packages("poLCA", dependencies = TRUE)
 # also could be: library("poLCA", lib.loc="/Library/Frameworks/R.framework/Versions/3.5/Resources/library")
 library("poLCA")
 

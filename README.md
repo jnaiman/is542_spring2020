@@ -9,8 +9,8 @@ If you see any bugs or errors please issue a PR -- always looking to make things
 As of writing, this github repo is very much under development **and** this course is still being taught so things in the last few weeks are moving around.  Check here for updates on the state of lectures.
 
  * Weeks 1-12 have been taught and code/lecture slides updated for this semester
- * Week 1-9 are fully ported to Github
- * Weeks 10-16 have no notebook files yet, only .R files and have not been "cleaned" for Github
+ * Week 1-10 are fully ported to Github
+ * Weeks 11-16 have no notebook files yet, only .R files and have not been "cleaned" for Github
 
 ## How to use this repo
 
@@ -85,6 +85,8 @@ This course is based off of the following textbooks:
     * A-void notebook
  * Week 03
     * Add in extra GLM stuff, corrplot, links to datacamp
+ * Week 10
+    * **ERROR:** the `tabplot` library won't load in jupyter notebooks
 	
 **Stretch Goals**
  * include bayesian stuffs as a bonus class
