@@ -8,11 +8,11 @@ Today we'll cover our first case of model-fitting: Linear Regression.
  1. [Notebook #1: Starting Linear Regression](prep_linearRegression_part1.ipynb)
 	* See [as an Rscript](Rscripts/prep_linearRegression_part1.R)	
 	* Data:  beersbac.csv([view](beersbac.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week11/beersbac.csv))
- 1. [Notebook #2: Using ANOVA models](prep_usingANOVA_part2.ipynb)
+ 1. [Notebook #2: Hubbles Law using Linear Regression](prep_hubblesExample_part2.ipynb)
 	* See [as an Rscript](Rscripts/prep_usingANOVA_week09_part2.R)	
-	* Data:  diet.csv([view](diet.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week10/diet.csv))
+	* Data:  hubble.csv([view](hubble.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week11/hubble.csv))
 	
-**Extra:** Hubble's data processing (Python) and original data [linked here](fullHubbleData)
+**Extra:** Hubble's data processing (Python) and original data [linked here](fullHubbleData).
 
 ## Reading
 
