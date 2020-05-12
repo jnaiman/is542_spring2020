@@ -5,8 +5,9 @@ Today we'll cover our first case of model-fitting: Linear Regression.
 ## Class outline
 
  1. [Lecture](lecture11_s2020_toupload.pdf)
- 1. [Notebook #1: Starting <img src="https://render.githubusercontent.com/render/math?math=\chi^2"> models](prep_starting_chi_squared_part1.ipynb)
-	* See [as an Rscript](Rscripts/prep_starting_chi_squared_week09_part1.R)	
+ 1. [Notebook #1: Starting Linear Regression](prep_linearRegression_part1.ipynb)
+	* See [as an Rscript](Rscripts/prep_linearRegression_part1.R)	
+	* Data:  beersbac.csv([view](beersbac.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week11/beersbac.csv))
  1. [Notebook #2: Using ANOVA models](prep_usingANOVA_part2.ipynb)
 	* See [as an Rscript](Rscripts/prep_usingANOVA_week09_part2.R)	
 	* Data:  diet.csv([view](diet.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week10/diet.csv))
