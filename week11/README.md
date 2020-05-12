@@ -11,6 +11,8 @@ Today we'll cover our first case of model-fitting: Linear Regression.
  1. [Notebook #2: Using ANOVA models](prep_usingANOVA_part2.ipynb)
 	* See [as an Rscript](Rscripts/prep_usingANOVA_week09_part2.R)	
 	* Data:  diet.csv([view](diet.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week10/diet.csv))
+	
+**Extra:** Hubble's data processing (Python) and original data [linked here](fullHubbleData)
 
 ## Reading
 
