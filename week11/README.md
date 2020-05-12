@@ -33,3 +33,4 @@ Packages to install (with command: install.packages("PACKAGE_NAME") or install.p
 ## References
  
  * Montana's course - http://www.math.montana.edu/courses/s217
+ * Hubble's law - http://adamdempsey90.github.io/python/dark_energy/dark_energy.html
