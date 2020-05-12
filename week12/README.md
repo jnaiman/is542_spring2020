@@ -1,13 +1,13 @@
 # Week 12: Multiple Linear Regression
 
-Today we'll extend our Linear Regression to include multiple explanatory variables - Multiple Linear Regression.
+Today we'll extend our Linear Regression to include multiple explanatory variables - Multiple Linear Regression.  We'll also talk about some of the issues that can arise with trusting p-values alone and address issues of "p-hacking" and "data dredging".
 
 ## Class outline
 
  1. [Lecture](lecture12_s2020_toupload.pdf)
- 1. [Notebook #1: Starting Linear Regression](prep_linearRegression_part1.ipynb)
-	* See [as an Rscript](Rscripts/prep_linearRegression_part1.R)	
-	* Data:  beersbac.csv([view](beersbac.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week11/beersbac.csv))
+ 1. [Notebook #1: Starting Multiple Linear Regression](prep_intro_mlr_part1.ipynb)
+	* See [as an Rscript](Rscripts/prep_week12_intro_mlr.R)	
+	* Data:  beersbac.csv([view](../week11/beersbac.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week11/beersbac.csv))
  1. [Notebook #2: Hubbles Law using Linear Regression](prep_hubblesExample_part2.ipynb)
 	* See [as an Rscript](Rscripts/prep_usingANOVA_week09_part2.R)	
 	* Data:  hubble.csv([view](hubble.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week11/hubble.csv))
