@@ -8,6 +8,7 @@ Today we'll extend our Linear Regression to include multiple explanatory variabl
  1. [Notebook #1: Starting Multiple Linear Regression](prep_intro_mlr_part1.ipynb)
 	* See [as an Rscript](Rscripts/prep_week12_intro_mlr.R)	
 	* Data:  beersbac.csv([view](../week11/beersbac.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week11/beersbac.csv))
+	* Data:  snotel\_s.csv([view](snotel_s.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week12/snotel_s.csv))
  1. [Notebook #2: Hubbles Law using Linear Regression](prep_hubblesExample_part2.ipynb)
 	* See [as an Rscript](Rscripts/prep_usingANOVA_week09_part2.R)	
 	* Data:  hubble.csv([view](hubble.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week11/hubble.csv))
