@@ -5,13 +5,9 @@ We'll discuss Logistic Regression which is a stepping stone to classification.
 ## Class outline
 
  1. [Lecture](lecture13_s2020_toupload.pdf)
- 1. [Notebook #1: Starting Multiple Linear Regression](prep_intro_mlr_part1.ipynb)
-	* See [as an Rscript](Rscripts/prep_week12_intro_mlr.R)	
-	* Data:  beersbac.csv([view](../week11/beersbac.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week11/beersbac.csv))
-	* Data:  snotel\_s.csv from [NRCS](http://www.wcc.nrcs.usda.gov/snotel/Montana/montana.html)([view](snotel_s.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week12/snotel_s.csv))
- 1. [Notebook #2: Hubbles Law Take 2 - using Multiple Linear Regression](prep_HubbleRevisited_part2.ipynb)
-	* See [as an Rscript](Rscripts/prep_week12_part2_HubbleRevisited.R)	
-	* Data:  sn\_data\_out\_lg.csv([view](sn_data_out_lg.csv), [raw](https://raw.githubusercontent.com/jnaiman/is542_spring2020/master/week12/sn_data_out_lg.csv))
+ 1. [Notebook: Logistic Regression](prep_logisticRegression_donnerParty_part1.ipynb)
+        * See [as an Rscript](Rscripts/prep_logisticRegression_donnerParty_part1_week13.R) 
+
 	
 
 ## Reading
