@@ -73,6 +73,7 @@ This course is based off of the following textbooks:
 
 ## TODO
 
+ * Add in a "who this course is for" section -- describe your typical iSchool student
  * Add in photos of RStudio & label panels
  * Link to Data ag install list?
  * Add in pedagogy links and general references
