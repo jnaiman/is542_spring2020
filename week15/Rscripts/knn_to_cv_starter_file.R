@@ -48,10 +48,12 @@ n_neg = 2000
 n_pos = 2000
 
 test_data = gmm_distribution2d(n_neg=n_neg, n_pos=n_pos, mean_seed=mean_seed, data_seed=data_seed)
-plot(test_data$x1[test_data$y == -1], test_data$x2[test_data$y== -1], col="blue", 
+
+mask = test_data$y == -1
+plot(test_data$x1[mask], test_data$x2[mask], col="blue", 
      xlim=c(min(test_data$x1),max(test_data$x1)), ylim = c(min(test_data$x2),max(test_data$x2)), 
      xlab="x1", ylab="x2")
-points(test_data$x1[test_data$y==1], test_data$x2[test_data$y==1], col="magenta")
+points(test_data$x1[!mask], test_data$x2[!mask], col="magenta")
 
 
 # ok, so the above is our simulated population, or the "test" dataset
@@ -68,8 +70,11 @@ train_data = test_data[train_ind, ]
 #  be all new points, so let's take these out
 test_data = test_data[-train_ind, ]
 
-plot(train_data$x1[train_data$y == -1], train_data$x2[train_data$y== -1], col="blue", 
+mask = train_data$y == -1
+plot(train_data$x1[mask], train_data$x2[mask], col="blue", 
      xlim=c(min(train_data$x1),max(train_data$x1)), 
      ylim = c(min(train_data$x2),max(train_data$x2)), 
      xlab="x1", ylab="x2")
-points(train_data$x1[train_data$y==1], train_data$x2[train_data$y==1], col="magenta")
+points(train_data$x1[!mask], train_data$x2[!mask], col="magenta")
+
+# Can run the above a few times and see different "train" distributions.

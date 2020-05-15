@@ -48,10 +48,12 @@ n_neg = 2000
 n_pos = 2000
 
 test_data = gmm_distribution2d(n_neg=n_neg, n_pos=n_pos, mean_seed=mean_seed, data_seed=data_seed)
-plot(test_data$x1[test_data$y == -1], test_data$x2[test_data$y== -1], col="blue", 
+
+mask = test_data$y == -1
+plot(test_data$x1[mask], test_data$x2[mask], col="blue", 
      xlim=c(min(test_data$x1),max(test_data$x1)), ylim = c(min(test_data$x2),max(test_data$x2)), 
      xlab="x1", ylab="x2")
-points(test_data$x1[test_data$y==1], test_data$x2[test_data$y==1], col="magenta")
+points(test_data$x1[!mask], test_data$x2[!mask], col="magenta")
 
 
 # ok, so the above is our simulated population, or the "test" dataset
@@ -68,11 +70,12 @@ train_data = test_data[train_ind, ]
 #  be all new points, so let's take these out
 test_data = test_data[-train_ind, ]
 
-plot(train_data$x1[train_data$y == -1], train_data$x2[train_data$y== -1], col="blue", 
+mask = train_data$y == -1
+plot(train_data$x1[mask], train_data$x2[mask], col="blue", 
      xlim=c(min(train_data$x1),max(train_data$x1)), 
      ylim = c(min(train_data$x2),max(train_data$x2)), 
      xlab="x1", ylab="x2")
-points(train_data$x1[train_data$y==1], train_data$x2[train_data$y==1], col="magenta")
+points(train_data$x1[!mask], train_data$x2[!mask], col="magenta")
 
 
 # OK, if we recall from last lecture, we fit a k=5 KNN model. 
@@ -105,8 +108,9 @@ prob2 = ifelse(knn_train_prediction=="1", prob, 1-prob)
 prob2 = matrix(prob2, n_x1_new, n_x2_new)
 
 contour(x1_new, x2_new, prob2, levels=0.5, labels="", lwd=4)
-points(train_data$x1[train_data$y==-1], train_data$x2[train_data$y==-1], col="blue")
-points(train_data$x1[train_data$y==1], train_data$x2[train_data$y==1], col="magenta")
+mask = train_data$y == -1
+points(train_data$x1[mask], train_data$x2[mask], col="blue")
+points(train_data$x1[!mask], train_data$x2[!mask], col="magenta")
 
 # So, this is essentially where we got to last lecture.
 
@@ -138,8 +142,9 @@ for( i in 1:length(k_values)){
                    ", trainE = ", toString(round(errs$tr,4)))
   # now plot
   contour(x1_new, x2_new, prob2, levels=0.5, labels="", lwd=4, xlab="x1", ylab="x2", main=titleLab)
-  points(train_data$x1[train_data$y==-1], train_data$x2[train_data$y==-1], col="blue")
-  points(train_data$x1[train_data$y==1], train_data$x2[train_data$y==1], col="magenta")
+  mask = train_data$y==-1
+  points(train_data$x1[mask], train_data$x2[mask], col="blue")
+  points(train_data$x1[!mask], train_data$x2[!mask], col="magenta")
 }
 
 # We can see that the test & training errors change with different k values.
@@ -150,7 +155,7 @@ for( i in 1:length(k_values)){
 
 # Let's plot both of these errors as a function of k
 # NOTE: this can take a while...
-k_values = seq(from=1, to=400, by=4)
+k_values = seq(from=1, to=400, by=4) # only go up to 200
 num_k = length(k_values)
 tr = c()
 tst = c()
@@ -235,7 +240,7 @@ error_matrix = matrix(0, nrow=num_k, ncol=k_folds_k) %>% as_tibble() %>%
 colnames(error_matrix) = str_replace(colnames(error_matrix), 'V', 'fold')
 
 # now if we look at the matrix we have stored useful info
-print(error_matrix)
+head(error_matrix)
 
 # Now we have labels of rows (each is a k value up to 100)
 # under the "k" column, and the "fold" we are using is along the column
