@@ -8,9 +8,9 @@ If you see any bugs or errors please issue a PR -- always looking to make things
 
 As of writing, this github repo is very much under development **and** this course is still being taught so things in the last few weeks are moving around.  Check here for updates on the state of lectures.
 
- * Weeks 1-13 have been taught and code/lecture slides updated for this semester
- * Week 1-13 are fully ported to Github
- * Weeks 14-16 have no notebook files yet, only .R files and have not been "cleaned" for Github
+ * Weeks 1-14 have been taught and code/lecture slides updated for this semester
+ * Week 1-14 are fully ported to Github
+ * Weeks 15-16 have no notebook files yet, only .R files and have not been "cleaned" for Github
 
 ## How to use this repo
 
@@ -79,6 +79,7 @@ This course is based off of the following textbooks:
  * Add in "working on" as far as online teaching strategies -- what is currently working and is not
  * add in course pre-reqs
  * add in slides with lecture notes
+ * collapse answers to practice problems
  
 **Weeks**
  * Week 02

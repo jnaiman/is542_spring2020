@@ -6,8 +6,8 @@ We'll discuss classification with K-Nearest-Neighbors.  We'll start to think abo
 ## Class outline
 
  1. [Lecture](lecture14_s2020_toupload.pdf)
- 1. [Notebook: Logistic Regression](prep_logisticRegression_donnerParty_part1.ipynb)
-        * See [as an Rscript](Rscripts/prep_logisticRegression_donnerParty_part1_week13.R) 
+ 1. [Notebook: Intro to KNN](prep_knn_part1.ipynb)
+    * See [as an Rscript](Rscripts/prep_knn_week14_part1.R) 
 
 	
 
@@ -33,3 +33,5 @@ Packages to install (with command: install.packages("PACKAGE\_NAME") or install.
 ## References
  
  * https://idc9.github.io/stor390/notes/cross_validation/cross_validation.html
+ * https://stats.stackexchange.com/questions/21572/how-to-plot-decision-boundary-of-a-k-nearest-neighbor-classifier-from-elements-o
+

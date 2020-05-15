@@ -1,4 +1,4 @@
-# KNN, week12
+# KNN, week14
 
 #  K-nearest neighbors
 # https://idc9.github.io/stor390/notes/cross_validation/cross_validation.html
@@ -29,7 +29,7 @@ source('https://raw.githubusercontent.com/idc9/stor390/master/notes/cross_valida
 
 ## pause and make sure this works for everybody!
 
-# ok, lets plot some 2D distributions
+# Ok, lets plot some 2D distributions
 # What we are going to do is draw points from gaussians (i.e. normal distributions) 
 # in 2D space
 
@@ -52,10 +52,15 @@ print(mydata)
 
 # lets also plot our distributions:
 # lets plot!
-plot(mydata$x1[mydata$y==-1], mydata$x2[mydata$y==-1], col="blue", 
+mask = mydata$y==-1
+#plot(mydata$x1[mydata$y==-1], mydata$x2[mydata$y==-1], col="blue", 
+#     xlim=c(min(mydata$x1), max(mydata$x1)), ylim = c(min(mydata$x2), max(mydata$x2)),
+#     xlab='x1', ylab='x2',pch=16)
+#points(mydata$x1[mydata$y==1], mydata$x2[mydata$y == 1], col="magenta",pch=16)
+plot(mydata$x1[mask], mydata$x2[mask], col="blue", 
      xlim=c(min(mydata$x1), max(mydata$x1)), ylim = c(min(mydata$x2), max(mydata$x2)),
      xlab='x1', ylab='x2',pch=16)
-points(mydata$x1[mydata$y==1], mydata$x2[mydata$y == 1], col="magenta",pch=16)
+points(mydata$x1[!mask], mydata$x2[!mask], col="magenta",pch=16)
 
 # we can run this and see the points move around, lets try with more data points
 #****go back and set n_neg/n_pos = 100 and 1000 ****
@@ -69,7 +74,8 @@ points(mydata$x1[mydata$y==1], mydata$x2[mydata$y == 1], col="magenta",pch=16)
 #  x1 & x2 space.
 
 # Now, we can see that there are 2 distinct populations.
-#  Let's say we want to keep the means of each of the distributions fixed & pull randomly from these fixed-mean distributions.
+#  Let's say we want to keep the means of each of the distributions fixed & pull randomly 
+#   from these fixed-mean distributions.
 
 # We can do this by fixing the "seed" of the random means
 #  this is the (1) random number
@@ -82,15 +88,15 @@ print(sample(1:10, 5))
 # if I run this a few times, I get different sets of 5 numbers in 
 # the range 1-10
 
-# but lets say I'm testing something and I want to be 
-# able to regenerate the same random numbers
+# But lets say I'm testing something and I want to be 
+#   able to regenerate the same random numbers
 set.seed(554)
 print(sample(1:10, 5))
 
-# if we run this another few times, we see we get 
-# now the same random numbers
+# If we run this another few times, we see we get 
+#   now the same random numbers.
 
-# to make sure things are random from now on
+# To make sure things are random from now on
 #  we can reset the seed
 set.seed(NULL)
 print(sample(1:10, 5))
@@ -105,10 +111,15 @@ n_pos = 1000
 mydata = gmm_distribution2d(n_neg=n_neg, n_pos=n_pos, mean_seed=mean_seed)
 
 # lets plot!
-plot(mydata$x1[mydata$y==-1], mydata$x2[mydata$y==-1], col="blue", 
+#plot(mydata$x1[mydata$y==-1], mydata$x2[mydata$y==-1], col="blue", 
+#     xlim=c(min(mydata$x1), max(mydata$x1)), ylim = c(min(mydata$x2), max(mydata$x2)),
+#     xlab='x1', ylab='x2')
+#points(mydata$x1[mydata$y==1], mydata$x2[mydata$y == 1], col="magenta")
+mask = mydata$y == -1
+plot(mydata$x1[mask], mydata$x2[mask], col="blue", 
      xlim=c(min(mydata$x1), max(mydata$x1)), ylim = c(min(mydata$x2), max(mydata$x2)),
      xlab='x1', ylab='x2')
-points(mydata$x1[mydata$y==1], mydata$x2[mydata$y == 1], col="magenta")
+points(mydata$x1[!mask], mydata$x2[!mask], col="magenta")
 
 # Now you can see that if I run this section a few times, the "middles" of the distributions are fixed, but
 #    the drawn points shift around.
@@ -120,10 +131,15 @@ data_seed = 52345
 mydata = gmm_distribution2d(n_neg=n_neg, n_pos=n_pos, mean_seed=mean_seed, data_seed=data_seed)
 
 # lets plot!
-plot(mydata$x1[mydata$y==-1], mydata$x2[mydata$y==-1], col="blue", 
+#plot(mydata$x1[mydata$y==-1], mydata$x2[mydata$y==-1], col="blue", 
+#     xlim=c(min(mydata$x1), max(mydata$x1)), ylim = c(min(mydata$x2), max(mydata$x2)),
+#     xlab='x1', ylab='x2')
+#points(mydata$x1[mydata$y==1], mydata$x2[mydata$y == 1], col="magenta")
+mask = mydata$y == -1
+plot(mydata$x1[mask], mydata$x2[mask], col="blue", 
      xlim=c(min(mydata$x1), max(mydata$x1)), ylim = c(min(mydata$x2), max(mydata$x2)),
      xlab='x1', ylab='x2')
-points(mydata$x1[mydata$y==1], mydata$x2[mydata$y == 1], col="magenta")
+points(mydata$x1[!mask], mydata$x2[!mask], col="magenta")
 
 # Now we can see that the draws from the underlying distribution are fixed as well
 #  this was random number (2) in our list above.
@@ -229,9 +245,11 @@ for (i in 1:grid_size){
   }
 }
 
-contour(myx1_seq,myx2_seq, probGrid, levels=0.5, labels="")
-points(sample_data$x1[sample_data$y==1], sample_data$x2[sample_data$y == 1], col="magenta")
-points(sample_data$x1[sample_data$y==-1], sample_data$x2[sample_data$y == -1], col="blue")
+contour(myx1_seq,myx2_seq, probGrid, levels=0.5, labels="", 
+        xlab='x1', ylab='x2')
+mask = sample_data$y == 1
+points(sample_data$x1[mask], sample_data$x2[mask], col="magenta")
+points(sample_data$x1[!mask], sample_data$x2[!mask], col="blue")
 
 
 
@@ -421,8 +439,9 @@ prob2 = ifelse(knn_train_prediction=="1", prob, 1-prob)
 prob2 = matrix(prob2, grid_size, grid_size)
 
 contour(x1_new,x2_new, prob2, levels=0.5, labels="")
-points(sample_data$x1[sample_data$y==1], sample_data$x2[sample_data$y == 1], col="magenta")
-points(sample_data$x1[sample_data$y==-1], sample_data$x2[sample_data$y == -1], col="blue")
+mask = sample_data$y == 1
+points(sample_data$x1[mask], sample_data$x2[mask], col="magenta")
+points(sample_data$x1[!mask], sample_data$x2[!mask], col="blue")
 
 # now we have something that looks like a boundary!  Neato!!
 
@@ -433,21 +452,34 @@ points(sample_data$x1[sample_data$y==-1], sample_data$x2[sample_data$y == -1], c
 
 ### IF ONLINE DO:
 # Let's look at a few different k's all at once
+#train.X = cbind(sample_data$x1, sample_data$x2)
 k_values = c(1, 3, 5, 9, 15, 20, 50, 100, 300)
-par(mfrow = c(3,3))
-for( i in 1:length(k_values)){
-  knn_train_prediction = knn(train.X, test.X, train_data$y, k=k_values[i], prob=T)
-  # grab stuff for plotting boundary
-  prob = attr(knn_train_prediction, "prob")
+grid_size = 10
+x1_new = seq(-2,4, length=grid_size) # same as myx1_seq
+x2_new = seq(-2,4, length=grid_size) # same as myx2_seq
+test.X = expand.grid(x1_new, x2_new)
+par(mfrow=c(3,3))
+for (i in 1:length(k_values)){
+  # let's make prediction!
+  knn_train_prediction = knn(train.X, test.X, 
+                             sample_data$y, 
+                             k=k_values[i], prob=TRUE)
+  # grab classification prob and transform it for
+  #  plotting with contour plot
+  prob = attr(knn_train_prediction,"prob")
+  # some fancy stuff for formatting
   prob2 = ifelse(knn_train_prediction=="1", prob, 1-prob)
   prob2 = matrix(prob2, grid_size, grid_size)
   # make title labels
   titleLab = paste("k = ", toString(k_values[i]))
-  # now plot
-  contour(x1_new, x2_new, prob2, levels=0.5, labels="", lwd=4, 
-          xlab="x1", ylab="x2", main=titleLab)
-  points(train_data$x1[train_data$y==1], train_data$x2[train_data$y==1], col="magenta")
-  points(train_data$x1[train_data$y==-1], train_data$x2[train_data$y==-1], col="blue")
+  
+  # redo the decision boundary plot with our KNN model
+  contour(x1_new, x2_new, prob2, levels=0.5, labels="", 
+          xlab='x1', ylab='x2', main=titleLab, lwd=4)
+  points(sample_data$x1[sample_data$y==1], 
+         sample_data$x2[sample_data$y==1], col="magenta")
+  points(sample_data$x1[sample_data$y==-1], 
+         sample_data$x2[sample_data$y==-1], col="blue")  
 }
 
 # Things to note: if we use a very small # of neightbors we get a very 
