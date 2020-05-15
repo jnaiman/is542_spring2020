@@ -6,7 +6,7 @@ We'll discuss Logistic Regression which is a stepping stone to classification.
 
  1. [Lecture](lecture13_s2020_toupload.pdf)
  1. [Notebook: Logistic Regression](prep_logisticRegression_donnerParty_part1.ipynb)
-        * See [as an Rscript](Rscripts/prep_logisticRegression_donnerParty_part1_week13.R) 
+      * See [as an Rscript](Rscripts/prep_logisticRegression_donnerParty_part1_week13.R) 
 
 	
 
