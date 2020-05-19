@@ -25,3 +25,5 @@ OIS 2.4, 2.5
 
 ## [Homework](homework.md)
 
+## [Instructor Notes](instructor_notes.md)
+
