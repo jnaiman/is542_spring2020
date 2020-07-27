@@ -1,4 +1,4 @@
-# Week 16: Lasso Regression with CV, Intro to Unsupervised learning (PCA)
+# Week 16: Lasso Regression with CV, Extra: Intro to Unsupervised learning (PCA)
 
 We'll keep thinking about Lasso/Ridge regression for Linear Regression, think a little bit about unsupervised learning, and talk about "where to go from here".
 
@@ -6,9 +6,8 @@ We'll keep thinking about Lasso/Ridge regression for Linear Regression, think a 
 ## Class outline
 
  1. [Lecture](lecture16_s2020_toupload.pdf)
- 1. [Notebook: Intro to CV using KNN](prep_knn_to_CV_part1.ipynb)
-    * See [as an Rscript](Rscripts/prep_knn_to_CV_week15.R) 
-	* This notebook starts from the [knn_to_cv_starter_file.R](Rscripts/knn_to_cv_starter_file.R) starter file
+ 1. [Notebook: Model selection with Lasso Regression and CV](prep_model_selection_week16.ipynb)
+    * See [as an Rscript](Rscripts/prep_model_selection_week16.R) 
 
 	
 
@@ -32,6 +31,7 @@ Packages to install (with command: install.packages("PACKAGE\_NAME") or install.
 ## Extra Resources
 
  1. Extra R-script about forward and backward selection, [optional_backward_forward_selection_week16.R](Rscripts/optional_backward_forward_selection_week16.R)
+ 1. Extra R-script with PCA, [prep_pca_week16.R](Rscripts/prep_pca_week16.R)
 
 ## [Homework](homework.md)
 
