@@ -145,12 +145,16 @@ plot_glmnet(lasso.mod.s,xvar="norm")
 cv.lasso = cv.glmnet(x, y, alpha=1)
 par(mfrow=c(1,1))
 plot(cv.lasso)
+print(cv.lasso)
 # Ok, what just happened.  R just ran a CV for us, using the MSE as our "loss" measure.
-#  lambda.min: value of lambda that gives minimum CV-measure, in this case the MSE - this is the smallest lambda
+#  lambda.min: value of lambda that gives minimum CV-measure, 
+#    in this case the MSE - this is the smallest lambda that is a "good" lambda
 #  lambda.1se: largest value of lambda such that error is within 1 standard error of the minimum.
+#   (We usually use this one because its both an acceptable lambda AND it gives the simpilest model, 
+#     more on this in a bit)
 # On the top of this plot is the # of parameters for each model, the y-axis is the MSE.
 # You can see the MSE increases if we have less than ~5 parameters - so our "best" model will have ~5 parameters 
-#   needed to accuratly fit our data.
+#   needed to accuratly fit our data.  
 
 # One thing to note here, if we recall our pairs-panels plot:
 pairs.panels(inputData, ellipse=F, 
@@ -162,6 +166,7 @@ pairs.panels(inputData, ellipse=F,
 cv.lasso = cv.glmnet(x, y, alpha=1, standardize=TRUE)
 par(mfrow=c(1,1))
 plot(cv.lasso)
+print(cv.lasso)
 # Now all the slopes are in a sense "weighted" in the same way.
 
 # What is the best Lambda to choose?
@@ -180,8 +185,8 @@ print(outstr)
 
 # Let's plot what parameters are in our "best" model
 plot_glmnet(lasso.mod)
-abline(v=log(cv.lasso$lambda.min))
-abline(v=log(cv.lasso$lambda.1se), lty=2)
+abline(v=log(cv.lasso$lambda.min)) # min is solid line
+abline(v=log(cv.lasso$lambda.1se), lty=2) # dashed is our "best and simpliest model"
 # We can see that we have things that don't intuatively make sense like day-of-week in our 
 #  lambda.min model.  That coupled with the fact that is generally useful to use the lambda$1se
 #  to avoid overfitting means we should probably take the lambda.1se model.
