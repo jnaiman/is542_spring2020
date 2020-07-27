@@ -6,8 +6,9 @@ We'll discuss model and parameter selection using Cross Validation (for KNN), an
 ## Class outline
 
  1. [Lecture](lecture15_s2020_toupload.pdf)
- 1. [Notebook: Intro to KNN](prep_knn_to_CV_part1.ipynb)
+ 1. [Notebook: Intro to CV using KNN](prep_knn_to_CV_part1.ipynb)
     * See [as an Rscript](Rscripts/prep_knn_to_CV_week15.R) 
+	* This notebook starts from the [knn_to_cv_starter_file.R](Rscripts/knn_to_cv_starter_file.R) starter file
 
 	
 

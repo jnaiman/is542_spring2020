@@ -89,6 +89,8 @@ This course is based off of the following textbooks:
     * Add in extra GLM stuff, corrplot, links to datacamp
  * Week 10
     * **ERROR:** the `tabplot` library won't load in jupyter notebooks
+ * Week 15
+    * add in-person "real life" example using the motion data and KNN
 	
 **Stretch Goals**
  * include bayesian stuffs as a bonus class
