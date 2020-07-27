@@ -91,6 +91,8 @@ This course is based off of the following textbooks:
     * **ERROR:** the `tabplot` library won't load in jupyter notebooks
  * Week 15
     * add in-person "real life" example using the motion data and KNN
+ * Week 16
+    * prep notebook for PCA isn't included as of now
 	
 **Stretch Goals**
  * include bayesian stuffs as a bonus class

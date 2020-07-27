@@ -38,5 +38,21 @@ Packages to install (with command: install.packages("PACKAGE\_NAME") or install.
  
 # Where to go from here
 
+Possible iSchool classes of interest (note: not all 490/590 classes offered all semesters/years):
+ * IS457 - supervised & unsupervised learning  
+ * IS490RB - data science, IS490RB2 - advanced data science
+ * IS590DT - data mining
+ * IS590MD - a higher level ML course, IS590ML is a Machine Learning (ML) team projects course, IS590MSC is advanced topics in ML & social computing
 
+Textbooks/Tutorials/Courses:
+ * Hands-on Machine Learning (Python, this was referenced in class) - https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow
+ * Deep learning tutorials and examples (and image processing as well, Python) - https://www.pyimagesearch.com/
+ * Google's Machine Learning Crash Course (~20-30 hrs, free) - https://developers.google.com/machine-learning/crash-course
+ * AWS ML training (some free, some not, Python & R): https://aws.amazon.com/training/learning-paths/machine-learning/, you can find a lot of tutorials by searching for "https://rstudio-pubs-static.s3.amazonaws.com/"
+
+Popular Literature:
+ * Dataclysm: https://www.amazon.com/Dataclysm-Identity-What-Online-Offline-Selves
+ * Weapons of Math Destruction: https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality
+ * Algorithms of Oppression: https://www.amazon.com/Algorithms-Oppression-Search-Engines-Reinforce
+ * Everybody Lies: https://www.amazon.com/Everybody-Lies-Internet-About-Really
 
