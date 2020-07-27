@@ -25,8 +25,12 @@ Lasso Regression + CV: ISL 6.0-6.5; Intro to Unsupervised learning (PCA): ISL 10
 Packages to install (with command: install.packages("PACKAGE\_NAME") or install.packages(PACKAGE\_NAME) ):
 
  1. stats
- 2. devtools
- 3. ggbiplot - after installing devtools you can try installing this with: install_github("vqv/ggbiplot")
+ 1. devtools
+ 1. ggbiplot - after installing devtools you can try installing this with: install_github("vqv/ggbiplot")
+ 1. tidyverse
+ 1. glmnet
+ 1. plotmo
+ 1. psych
  
 ## Extra Resources
 
