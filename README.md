@@ -4,13 +4,6 @@ This is a hastily assembled group of course materials for IS542 at the iSchool, 
 
 If you see any bugs or errors please issue a PR -- always looking to make things better!
 
-## Development Notes
-
-As of writing, this github repo is very much under development **and** this course is still being taught so things in the last few weeks are moving around.  Check here for updates on the state of lectures.
-
- * Weeks 1-15 have been taught and code/lecture slides updated for this semester
- * Week 1-15 are fully ported to Github
- * Week 16 has no notebook files yet, only .R files and have not been "cleaned" for Github
 
 ## How to use this repo
 
