@@ -15,7 +15,6 @@ Below is the outline of the course, with links to the individual folders for eac
  1. Prep coding notebooks used for the "live coding" portions of class which generally happened after the lecture portion (.ipynb files) **BUT** sometimes we swtich between the lecture slides & R.  This will be denoted in the slides as well as R.
  1. Any datasets used in the coding portion
  
-**NOTE:** As this format of this course is currently being updated, some of the notebooks have not been converted and instead .R files are included instead.
 
 ## Course Outline
 
