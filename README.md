@@ -9,7 +9,7 @@ If you see any bugs or errors please issue a PR -- always looking to make things
 
 Each week consists of lecture slides and prep-notebooks in the programming language R along with suggested resources, homeworks and readings.  The readings consist of what was "required" for the course as well as optional extra readings so feel free to take/leave what you'd like.
 
-Below is the outline of the course, with links to the individual folders for each week.  Each folder contains (IN PROGRESS):
+Below is the outline of the course, with links to the individual folders for each week.  Each folder contains:
  1. an "README.md" file which lists the suggested readings and homeworks, datasets and any extra resources for the week
  1. The lecture slides (as a pdf)
  1. Prep coding notebooks used for the "live coding" portions of class which generally happened after the lecture portion (.ipynb files) **BUT** sometimes we swtich between the lecture slides & R.  This will be denoted in the slides as well as R.
