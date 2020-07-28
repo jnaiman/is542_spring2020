@@ -37,9 +37,6 @@ Packages to install (with command: install.packages("PACKAGE\_NAME") or install.
  1. Extra R-script about forward and backward selection, [optional_backward_forward_selection_week16.R](Rscripts/optional_backward_forward_selection_week16.R)
  1. Extra R-script with PCA, [prep_pca_week16.R](Rscripts/prep_pca_week16.R)
 
-## References
- 
- * https://idc9.github.io/stor390/notes/cross_validation/cross_validation.html
  
 # Where to go from here
 
@@ -61,3 +58,8 @@ Popular Literature:
  * Algorithms of Oppression: https://www.amazon.com/Algorithms-Oppression-Search-Engines-Reinforce
  * Everybody Lies: https://www.amazon.com/Everybody-Lies-Internet-About-Really
 
+## References
+ 
+ * https://idc9.github.io/stor390/notes/cross_validation/cross_validation.html
+ * http://ricardoscr.github.io/how-to-use-ridge-and-lasso-in-r.html
+ * https://www.datacamp.com/community/tutorials/tutorial-ridge-lasso-elastic-net
